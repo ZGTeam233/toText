@@ -208,5 +208,5 @@ __marimo__/
 
 # 使用pillow库时，可能用来测试的文件
 test*.png
-in*.png
+in*.*
 test*.txt
