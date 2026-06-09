@@ -4,6 +4,7 @@ licensing under the Apache-2.0 License (see LICENSE for details).
 """
 from img import *
 from ascii_player import *
+from turtle_app import *
 
 def image2text():
     img = Img("in.png")
@@ -30,12 +31,21 @@ def ascii_player():
     player = AsciiAnimationPlayer()
     player.run()
 
+def turtle_line():
+    TARGET_IMAGE = "in.png"
+    if not os.path.exists(TARGET_IMAGE):
+        print(f"提示: 未找到 '{TARGET_IMAGE}'。请放置图片或修改路径。")
+    else:
+        app = App(TARGET_IMAGE)
+        app.run()
+
 def main():
     print("一个转字符画的小程序")
     print("功能列表：")
     print("1. 单张图片in.png转字符画")
     print("2. 多张图片in_{z0}.jpg转字符画")
     print("3. 字符动画播放器")
+    print("4. turtle绘画")
     print("0. 退出")
     choice = int(input("请选择："))
     if choice == 1:
@@ -46,6 +56,8 @@ def main():
         print("完成")
     elif choice == 3:
         ascii_player()
+    elif choice == 4:
+        turtle_line()
     else:
         return
 
