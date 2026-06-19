@@ -7,7 +7,7 @@
 功能：播放 /src/test/test_{z0}.txt 序列字符画文件
 使用：运行后通过 CLI 交互设置参数，播放完自动退出
 
-Copyright(c) 2026 Zilin Zheng,
+Copyright(c) 2026 ZGTeam233,
 licensing under the Apache-2.0 License (see LICENSE for details).
 """
 

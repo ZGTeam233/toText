@@ -1,3 +1,8 @@
+"""
+Copyright(c) 2026 ZGTeam233,
+licensing under the Apache-2.0 License (see LICENSE for details).
+"""
+
 import cv2
 import numpy as np
 import turtle
