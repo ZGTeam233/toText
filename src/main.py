@@ -3,7 +3,6 @@ Copyright(c) 2026 Zilin Zheng,
 licensing under the Apache-2.0 License (see LICENSE for details).
 """
 from img import *
-from ascii_player import *
 from turtle_app import *
 
 def image2text():
