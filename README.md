@@ -18,5 +18,5 @@ pip install pygame numpy \
 ```
 4. 运行主程序
 ```bash
-python ./src/main.py
+python ./main.py
 ```
