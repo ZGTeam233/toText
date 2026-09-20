@@ -1,3 +1,7 @@
+更新: 单文件版
+-
+
+
 # toText
 转换为ASCII字符画，分离自LearnPy
 
@@ -10,13 +14,13 @@
 ```bash
 git clone github.com/ZGTeam233/toText
 ```
-3. 安装依赖（可能 *pygame* 需要 ***完整 C++ 编译环境***，如 *GNU Toolchain* 或 *Microsoft Visual C++*）
+3. 安装依赖（可能 *pygame-ce* 需要 ***完整 C++ 编译环境***，如 *GNU Toolchain* 或 *Microsoft Visual C++*）
 ```bash
-pip install pygame numpy \
+pip install pygame-ce numpy \
     opencv-python pillow \
     -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 4. 运行主程序
 ```bash
-python ./main.py
+python ./to_text_main.py
 ```
